@@ -3,7 +3,7 @@
 **Clonex.WTFork** is a community-enhanced Blender add-on that provides a comprehensive suite of tools for creating amazing content with CloneX 3D avatars
 
 ## 🚀 Community Fork v2.5.0 - Enhanced CloneX Workflow!
-**Version 2.5.0** brings **community-driven enhancements** with full **Blender 4.5.0+** compatibility and expanded features.
+**Version 2.5.0** brings **community-driven enhancements** with full **Blender 5.0.0+** compatibility and expanded features.
 
 ## Attribution
 - This project is a community fork of the original **Clone Tools** addon.
@@ -11,10 +11,10 @@
 - Fork-specific changes, fixes, and maintenance are by the **WTFork Community**.
 - See [CREDITS.md](./CREDITS.md) for attribution details.
 
-[![Blender](https://img.shields.io/badge/Blender-4.5.0+-orange.svg)](https://www.blender.org/)
+[![Blender](https://img.shields.io/badge/Blender-5.0.0+-orange.svg)](https://www.blender.org/)
 [![Version](https://img.shields.io/badge/Version-2.5.0-blue.svg)](./CHANGELOG.md)
 [![Python](https://img.shields.io/badge/Python-3.11-green.svg)](https://www.python.org/)
-[![Community](https://img.shields.io/badge/Community-Fork-purple.svg)](https://github.com/wtfork/clonex-wtfork)
+[![Community](https://img.shields.io/badge/Community-Fork-purple.svg)](https://github.com/clonexcreators/Clone_Tools_WTFork)
 
 ## Features
 The community-enhanced add-on provides users with the ability to:
@@ -33,7 +33,7 @@ The community-enhanced add-on provides users with the ability to:
 ## 📋 System Requirements
 
 ### Minimum Requirements
-- **Blender**: 4.5.0 or higher
+- **Blender**: 5.0.0 or higher
 - **Operating System**: Windows 10+, macOS 10.15+, or Linux (Ubuntu 18.04+)
 - **Architecture**: 64-bit systems only
 - **Memory**: 8GB RAM minimum
@@ -54,7 +54,7 @@ Before installing, ensure your system meets the requirements:
    ```
    Help > About Blender
    ```
-   - **Required**: Blender 4.5.0 or higher
+   - **Required**: Blender 5.0.0 or higher
    - **Recommended**: Latest stable Blender release
 
 2. **System Compatibility**
@@ -73,16 +73,17 @@ Before installing, ensure your system meets the requirements:
 #### Method 1: GitHub Release (Free Community Version)
 
 **Step 1: Download**
-1. Visit the [Releases](https://github.com/wtfork/clonex-wtfork/releases) page
-2. Download the latest `clonex-wtfork-v2.5.0.zip` file
+1. Visit the [Releases](https://github.com/clonexcreators/Clone_Tools_WTFork/releases) page
+2. Download the latest addon zip asset (for example `Clone_Tools_WTFork-v2.5.0.zip`)
 3. **Do NOT extract** the zip file - Blender needs the intact .zip
+4. Note: this source repository does not keep the built addon zip in the repo root; zip files are release artifacts.
 
 **Step 2: Install in Blender**
-1. Open **Blender 4.5+**
+1. Open **Blender 5.0+**
 2. Go to `Edit > Preferences` (Windows/Linux) or `Blender > Preferences` (macOS)
 3. Select **Add-ons** tab on the left sidebar
 4. Click **Install...** button at the top
-5. Navigate to your downloaded `clonex-wtfork-v2.5.0.zip` file
+5. Navigate to your downloaded addon zip file
 6. Select the zip file and click **Install Add-on**
 7. Find **"Clonex.WTFork"** in the addon list (use search if needed)
 8. **Check the checkbox** to enable the addon
@@ -108,13 +109,13 @@ Before installing, ensure your system meets the requirements:
 
 1. **Clone Repository**
    ```bash
-   git clone https://github.com/wtfork/clonex-wtfork.git
+   git clone https://github.com/clonexcreators/Clone_Tools_WTFork.git
    ```
 
 2. **Locate Blender Addons Folder**
-   - **Windows**: `%APPDATA%\Blender Foundation\Blender\4.5\scripts\addons\`
-   - **macOS**: `~/Library/Application Support/Blender/4.5/scripts/addons/`
-   - **Linux**: `~/.config/blender/4.5/scripts/addons/`
+   - **Windows**: `%APPDATA%\Blender Foundation\Blender\5.0\scripts\addons\`
+   - **macOS**: `~/Library/Application Support/Blender/5.0/scripts/addons/`
+   - **Linux**: `~/.config/blender/5.0/scripts/addons/`
 
 3. **Copy Addon Folder**
    ```bash
@@ -166,7 +167,7 @@ Before installing, ensure your system meets the requirements:
   Then reinstall the addon
 
 **❌ Problem: "Blender version too old" error**
-- **Solution**: Update to Blender 4.5.0+
+- **Solution**: Update to Blender 5.0.0+
 - **Check version**: `Help > About Blender`
 - **Download latest**: [blender.org](https://www.blender.org/download/)
 
@@ -210,7 +211,7 @@ print(f"Python: {bpy.app.version_string}")
 ### Installation Verification Checklist
 
 ✅ **Basic Installation**
-- [ ] Blender 4.5.0+ installed and running
+- [ ] Blender 5.0.0+ installed and running
 - [ ] Clonex.WTFork addon appears in Add-ons list  
 - [ ] Addon enabled with checkbox checked
 - [ ] Clonex.WTFork panel visible in 3D Viewport sidebar
@@ -236,7 +237,7 @@ If you encounter issues not covered here:
    - [Changelog](./CHANGELOG.md) for known issues
 
 2. **Community Support**
-   - [GitHub Issues](https://github.com/wtfork/clonex-wtfork/issues)
+   - [GitHub Issues](https://github.com/clonexcreators/Clone_Tools_WTFork/issues)
    - WTFork Discord community
    - Blender Artists forum
 
@@ -272,7 +273,7 @@ Once successfully installed, check out:
 
 ## 🔄 Migrating from Previous Versions
 
-### From Blender 3.2 to 4.5
+### From Blender 3.2/4.x to 5.0
 - ✅ **All CloneX files remain compatible**
 - ✅ **No workflow changes required**
 - ✅ **Style libraries and content packs work as before**
@@ -283,7 +284,7 @@ Simply install the new version and continue working with your existing files!
 ## 🆘 Support
 
 ### Getting Help
-- **GitHub Issues**: [Report bugs or request features](https://github.com/wtfork/clonex-wtfork/issues)
+- **GitHub Issues**: [Report bugs or request features](https://github.com/clonexcreators/Clone_Tools_WTFork/issues)
 - **Community**: Join the WTFork Discord for community support
 - **Documentation**: Check the linked documentation files above
 
@@ -361,6 +362,6 @@ This project is licensed under the terms specified in the [LICENSE](./LICENSE) f
 
 **Made with ❤️ by the WTFork Community for the CloneX ecosystem**
 
-*Clonex.WTFork v2.5.0 - Compatible with Blender 4.5.0+*
+*Clonex.WTFork v2.5.0 - Compatible with Blender 5.0.0+*
 
 > Community fork of the original Clone Tools by RTFKT - Enhanced and maintained by the community
