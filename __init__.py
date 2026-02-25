@@ -6,8 +6,8 @@ bl_info = {
     "description": "A community fork of Clone Tools - Enhanced CloneX 3D workflow addon",
     "category": "Animation",
     "support": "COMMUNITY",
-    "doc_url": "https://github.com/wtfork/clonex-wtfork",
-    "tracker_url": "https://github.com/wtfork/clonex-wtfork/issues"
+    "doc_url": "https://github.com/clonexcreators/Clone_Tools_WTFork",
+    "tracker_url": "https://github.com/clonexcreators/Clone_Tools_WTFork/issues"
 }
 
 if "bpy" in locals():
