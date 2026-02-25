@@ -1,0 +1,10 @@
+* text=auto eol=lf
+
+# Treat common DCC/binary assets as binary if they are ever tracked.
+*.blend binary
+*.fbx binary
+*.zip binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.unitypackage binary

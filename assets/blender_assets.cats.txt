@@ -1,0 +1,24 @@
+# This is an Asset Catalog Definition file for Blender.
+#
+# Empty lines and lines starting with `#` will be ignored.
+# The first non-ignored line should be the version indicator.
+# Other lines are of the format "UUID:catalog/path/for/assets:simple catalog name"
+
+VERSION 1
+
+03308311-46cd-4b9f-8a19-246b672fdcaa:Base Traits:Base Traits
+4a2f0655-0e5e-4ace-9ec6-8c5642e64917:Base Traits/DNA:Base Traits-DNA
+21ff2dc7-4ef4-45d2-8f81-09e9b83de83c:Base Traits/Eyebrows:Base Traits-Eyebrows
+fe2f7c6d-a9d4-4a87-8885-c3654b1f4bf1:Base Traits/Eyes:Base Traits-Eyes
+b979af3c-e676-4d79-ac37-76dab7608855:Base Traits/Facial Feature:Base Traits-Facial Feature
+30366e8f-d71d-4605-a1c9-96c2eaaa0e6e:Base Traits/Hair:Base Traits-Hair
+8733907c-1f42-43e9-854e-27d2abeab9b9:Base Traits/Mouth:Base Traits-Mouth
+25af1a3c-8e99-4946-a789-1bf55f22b565:Wearables:Wearables
+20777dc3-b674-423a-b1d1-16b248bbb6d8:Wearables/Accessories:Wearables-Accessories
+e8b51e9d-fb77-4156-b31b-3c5a6c3dae2d:Wearables/Back:Wearables-Back
+e095b435-77bb-496b-a894-ba568b8712a9:Wearables/Clothing:Wearables-Clothing
+b27cc91b-b182-457d-9d2b-85f1f71f361c:Wearables/Eyewear:Wearables-Eyewear
+d1271921-7711-4aea-926b-90a80f2c9455:Wearables/Footwear:Wearables-Footwear
+e60bb7f8-82ca-4812-8a85-321d95a734e6:Wearables/Footwear:Wearables-Footwear
+f85c5cc5-d912-45d8-914b-4b47242d7c88:Wearables/Headwear:Wearables-Headwear
+fce75682-2b70-4e30-b94f-5d2c21550b66:Wearables/Jewelry:Wearables-Jewelry

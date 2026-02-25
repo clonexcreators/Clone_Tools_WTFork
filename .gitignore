@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+
+# Python cache/artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Local logs and debug outputs
+crash_logs/
+*.crash.txt
+*.ips
+
+# Local build/test payloads (very large, not for source repo)
+build/
+publish/
+
+# Blender/runtime generated files
+*.blend1
+*.blend2
+
+# Content packs policy:
+# keep pose libraries in git, exclude all other content-pack payloads
+content_packs/**
+!content_packs/poses/
+!content_packs/poses/**
+
+# Local env/files
+.env
+.env.*
